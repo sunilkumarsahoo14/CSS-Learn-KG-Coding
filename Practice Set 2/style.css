@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bar {
+    background-color: aquamarine;
+    color: rgba(247, 25, 25, 0.8);
+}
+
+main {
+    height: 500px;
+    background-color: rgb(255, 254, 241);
+}
+
+#product {
+    width: 200px;
+    height: 350px;
+    /* background-color: green;
+    background-image: url(/download.jpg); */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    /* short hand property  */
+    background: rgb(0, 172, 114) url(/download.jpg) no-repeat center;
+}
